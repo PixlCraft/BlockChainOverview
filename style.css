@@ -64,6 +64,7 @@ input:hover {
 }
 label:after {
 	content: ":" ;
+	box-sizing: border-box;
 }
 
 label {
@@ -71,5 +72,42 @@ label {
    font-family: 'Orbitron', sans-serif;
 }
 
+.genesisPrevHashBox {
+   margin-left: 10px;	
+   margin-bottom: :7px;
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: nowrap;
+   max-width: 100%;
+   overflow: auto; 
+}
 
+.textStyle{
+	color: green;
+	font-size: 8pt; 
+	float: right;
+	font-family: 'Rajdhani', sans-serif;
+	font-family: 'Orbitron', sans-serif; 
+	cursor: default;
+	background:none;
+	border-color: transparent;
+}
 
+.genesisHashBox {
+	margin-left: 10px;
+	display: flex ;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	max-width: 100%;
+	overflow:auto;
+}
+
+.textStyleHash {
+	color:#52c41a;
+	background:#f6ffed;
+	border-color: #b7eb8f; 
+	display: block;
+	cursor: default;
+	max-width: 100%;
+	overflow: auto;
+}
